@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing trajectory_gen_mpc.egg-info/PKG-INFO
+writing dependency_links to trajectory_gen_mpc.egg-info/dependency_links.txt
+writing entry points to trajectory_gen_mpc.egg-info/entry_points.txt
+writing requirements to trajectory_gen_mpc.egg-info/requires.txt
+writing top-level names to trajectory_gen_mpc.egg-info/top_level.txt
+reading manifest file 'trajectory_gen_mpc.egg-info/SOURCES.txt'
+writing manifest file 'trajectory_gen_mpc.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/python3.8/site-packages/trajectory-gen-mpc.egg-link (link to .)
+Installing CarlaClient script to /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/trajectory_gen_mpc
+Installing TrajectoryServer script to /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/trajectory_gen_mpc
+Installing trajectory_gen_mpc script to /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/trajectory_gen_mpc
+
+Installed /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/build/trajectory_gen_mpc
+running install_data

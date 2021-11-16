@@ -1,0 +1,9 @@
+[console_scripts]
+pyClientOOPS_exe = my_py_pkg.pyClientOOPS:main
+pyClient_exe = my_py_pkg.pyClient:main
+pyPub_exe = my_py_pkg.py_pub:main
+pyServer_exe = my_py_pkg.pyServer:main
+pySub_exe = my_py_pkg.py_sub:main
+py_exe = my_py_pkg.first_py_node:main
+pyclass_exe = my_py_pkg.class_node:main
+

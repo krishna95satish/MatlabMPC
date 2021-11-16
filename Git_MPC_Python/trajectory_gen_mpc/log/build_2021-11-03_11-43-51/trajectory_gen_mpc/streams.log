@@ -1,0 +1,17 @@
+[0.281s] Invoking command in '/home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/build/trajectory_gen_mpc': PYTHONPATH=/home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/install/trajectory_gen_mpc --editable --build-directory /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/build/trajectory_gen_mpc/build --no-deps install_data --install-dir /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/install/trajectory_gen_mpc
+[0.533s] running develop
+[0.684s] running egg_info
+[0.684s] writing trajectory_gen_mpc.egg-info/PKG-INFO
+[0.684s] writing dependency_links to trajectory_gen_mpc.egg-info/dependency_links.txt
+[0.684s] writing entry points to trajectory_gen_mpc.egg-info/entry_points.txt
+[0.684s] writing requirements to trajectory_gen_mpc.egg-info/requires.txt
+[0.684s] writing top-level names to trajectory_gen_mpc.egg-info/top_level.txt
+[0.688s] reading manifest file 'trajectory_gen_mpc.egg-info/SOURCES.txt'
+[0.689s] writing manifest file 'trajectory_gen_mpc.egg-info/SOURCES.txt'
+[0.736s] running build_ext
+[0.736s] Creating /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/python3.8/site-packages/trajectory-gen-mpc.egg-link (link to .)
+[0.736s] Installing test_exec script to /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/trajectory_gen_mpc
+[0.737s] 
+[0.737s] Installed /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/build/trajectory_gen_mpc
+[0.737s] running install_data
+[0.761s] Invoked command in '/home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/build/trajectory_gen_mpc' returned '0': PYTHONPATH=/home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/install/trajectory_gen_mpc --editable --build-directory /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/build/trajectory_gen_mpc/build --no-deps install_data --install-dir /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/install/trajectory_gen_mpc

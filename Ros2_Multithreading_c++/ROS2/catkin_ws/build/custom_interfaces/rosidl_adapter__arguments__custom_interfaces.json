@@ -1,0 +1,10 @@
+{
+  "package_name": "custom_interfaces",
+  "non_idl_tuples": [
+    "/home/krishna/Altran_Folders/ROS2/catkin_ws/src/custom_interfaces:msg/HwStatus.msg",
+    "/home/krishna/Altran_Folders/ROS2/catkin_ws/src/custom_interfaces:msg/LEDState.msg",
+    "/home/krishna/Altran_Folders/ROS2/catkin_ws/src/custom_interfaces:msg/LEDStates.msg",
+    "/home/krishna/Altran_Folders/ROS2/catkin_ws/src/custom_interfaces:srv/SetLED.srv",
+    "/home/krishna/Altran_Folders/ROS2/catkin_ws/src/custom_interfaces:srv/ComputeAreaOfRectangle.srv"
+  ]
+}

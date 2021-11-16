@@ -1,0 +1,1 @@
+bool led_status

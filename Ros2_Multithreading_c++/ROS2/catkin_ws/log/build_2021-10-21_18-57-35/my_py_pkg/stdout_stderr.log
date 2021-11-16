@@ -1,0 +1,63 @@
+/home/krishna/.local/lib/python3.8/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+/home/krishna/.local/lib/python3.8/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+  warnings.warn(
+running egg_info
+creating ../../build/my_py_pkg/my_py_pkg.egg-info
+writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/krishna/Altran_Folders/ROS2/catkin_ws/build/my_py_pkg/build
+creating /home/krishna/Altran_Folders/ROS2/catkin_ws/build/my_py_pkg/build/lib
+creating /home/krishna/Altran_Folders/ROS2/catkin_ws/build/my_py_pkg/build/lib/my_py_pkg
+copying my_py_pkg/py_sub.py -> /home/krishna/Altran_Folders/ROS2/catkin_ws/build/my_py_pkg/build/lib/my_py_pkg
+copying my_py_pkg/pyClient.py -> /home/krishna/Altran_Folders/ROS2/catkin_ws/build/my_py_pkg/build/lib/my_py_pkg
+copying my_py_pkg/__init__.py -> /home/krishna/Altran_Folders/ROS2/catkin_ws/build/my_py_pkg/build/lib/my_py_pkg
+copying my_py_pkg/pyServer.py -> /home/krishna/Altran_Folders/ROS2/catkin_ws/build/my_py_pkg/build/lib/my_py_pkg
+copying my_py_pkg/pyClientOOPS.py -> /home/krishna/Altran_Folders/ROS2/catkin_ws/build/my_py_pkg/build/lib/my_py_pkg
+copying my_py_pkg/class_node.py -> /home/krishna/Altran_Folders/ROS2/catkin_ws/build/my_py_pkg/build/lib/my_py_pkg
+copying my_py_pkg/py_pub.py -> /home/krishna/Altran_Folders/ROS2/catkin_ws/build/my_py_pkg/build/lib/my_py_pkg
+copying my_py_pkg/first_py_node.py -> /home/krishna/Altran_Folders/ROS2/catkin_ws/build/my_py_pkg/build/lib/my_py_pkg
+running install
+running install_lib
+creating /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+copying /home/krishna/Altran_Folders/ROS2/catkin_ws/build/my_py_pkg/build/lib/my_py_pkg/py_sub.py -> /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+copying /home/krishna/Altran_Folders/ROS2/catkin_ws/build/my_py_pkg/build/lib/my_py_pkg/pyClient.py -> /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+copying /home/krishna/Altran_Folders/ROS2/catkin_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+copying /home/krishna/Altran_Folders/ROS2/catkin_ws/build/my_py_pkg/build/lib/my_py_pkg/pyServer.py -> /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+copying /home/krishna/Altran_Folders/ROS2/catkin_ws/build/my_py_pkg/build/lib/my_py_pkg/pyClientOOPS.py -> /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+copying /home/krishna/Altran_Folders/ROS2/catkin_ws/build/my_py_pkg/build/lib/my_py_pkg/class_node.py -> /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+copying /home/krishna/Altran_Folders/ROS2/catkin_ws/build/my_py_pkg/build/lib/my_py_pkg/py_pub.py -> /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+copying /home/krishna/Altran_Folders/ROS2/catkin_ws/build/my_py_pkg/build/lib/my_py_pkg/first_py_node.py -> /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+byte-compiling /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/py_sub.py to py_sub.cpython-38.pyc
+byte-compiling /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/pyClient.py to pyClient.cpython-38.pyc
+byte-compiling /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/pyServer.py to pyServer.cpython-38.pyc
+byte-compiling /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/pyClientOOPS.py to pyClientOOPS.cpython-38.pyc
+byte-compiling /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/class_node.py to class_node.cpython-38.pyc
+byte-compiling /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/py_pub.py to py_pub.cpython-38.pyc
+byte-compiling /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/first_py_node.py to first_py_node.cpython-38.pyc
+running install_data
+creating /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/share/ament_index
+creating /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/share/ament_index/resource_index
+creating /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+copying resource/my_py_pkg -> /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/share/my_py_pkg
+running install_egg_info
+Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg-0.0.0-py3.8.egg-info
+running install_scripts
+Installing pyClientOOPS_exe script to /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/my_py_pkg
+Installing pyClient_exe script to /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/my_py_pkg
+Installing pyPub_exe script to /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/my_py_pkg
+Installing pyServer_exe script to /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/my_py_pkg
+Installing pySub_exe script to /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/my_py_pkg
+Installing py_exe script to /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/my_py_pkg
+Installing pyclass_exe script to /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/my_py_pkg
+writing list of installed files to '/home/krishna/Altran_Folders/ROS2/catkin_ws/build/my_py_pkg/install.log'

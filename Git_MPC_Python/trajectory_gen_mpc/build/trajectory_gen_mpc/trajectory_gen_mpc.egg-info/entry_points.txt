@@ -1,0 +1,7 @@
+[console_scripts]
+CarlaClient = trajectory_gen_mpc.CarlaClient:main
+CarlaNode = trajectory_gen_mpc.CarlaNode:main
+TrajectorNode = trajectory_gen_mpc.TrajectorGenMpcNode:main
+TrajectoryServer = trajectory_gen_mpc.TrajectoryGenServer:main
+trajectory_gen_mpc = trajectory_gen_mpc.main:main
+

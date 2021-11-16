@@ -1,0 +1,8 @@
+{
+  "package_name": "custom_interfaces",
+  "non_idl_tuples": [
+    "/home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/custom_interfaces:srv/Trajectory.srv",
+    "/home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/custom_interfaces:msg/ControlAction.msg",
+    "/home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/custom_interfaces:msg/States.msg"
+  ]
+}

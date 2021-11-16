@@ -1,0 +1,65 @@
+running egg_info
+creating build/trajectory_gen_mpc/trajectory_gen_mpc.egg-info
+writing build/trajectory_gen_mpc/trajectory_gen_mpc.egg-info/PKG-INFO
+writing dependency_links to build/trajectory_gen_mpc/trajectory_gen_mpc.egg-info/dependency_links.txt
+writing entry points to build/trajectory_gen_mpc/trajectory_gen_mpc.egg-info/entry_points.txt
+writing requirements to build/trajectory_gen_mpc/trajectory_gen_mpc.egg-info/requires.txt
+writing top-level names to build/trajectory_gen_mpc/trajectory_gen_mpc.egg-info/top_level.txt
+writing manifest file 'build/trajectory_gen_mpc/trajectory_gen_mpc.egg-info/SOURCES.txt'
+reading manifest file 'build/trajectory_gen_mpc/trajectory_gen_mpc.egg-info/SOURCES.txt'
+writing manifest file 'build/trajectory_gen_mpc/trajectory_gen_mpc.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/build/trajectory_gen_mpc/build
+creating /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/build/trajectory_gen_mpc/build/lib
+creating /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/build/trajectory_gen_mpc/build/lib/trajectory_gen_mpc
+copying trajectory_gen_mpc/MultipleShooting.py -> /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/build/trajectory_gen_mpc/build/lib/trajectory_gen_mpc
+copying trajectory_gen_mpc/StaticObstacle.py -> /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/build/trajectory_gen_mpc/build/lib/trajectory_gen_mpc
+copying trajectory_gen_mpc/DynamicObstacle.py -> /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/build/trajectory_gen_mpc/build/lib/trajectory_gen_mpc
+copying trajectory_gen_mpc/Obstacle.py -> /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/build/trajectory_gen_mpc/build/lib/trajectory_gen_mpc
+copying trajectory_gen_mpc/__init__.py -> /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/build/trajectory_gen_mpc/build/lib/trajectory_gen_mpc
+copying trajectory_gen_mpc/Non_Holonomic.py -> /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/build/trajectory_gen_mpc/build/lib/trajectory_gen_mpc
+copying trajectory_gen_mpc/Holonomic.py -> /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/build/trajectory_gen_mpc/build/lib/trajectory_gen_mpc
+copying trajectory_gen_mpc/GlobalConstraints.py -> /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/build/trajectory_gen_mpc/build/lib/trajectory_gen_mpc
+copying trajectory_gen_mpc/Vehicle.py -> /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/build/trajectory_gen_mpc/build/lib/trajectory_gen_mpc
+copying trajectory_gen_mpc/main.py -> /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/build/trajectory_gen_mpc/build/lib/trajectory_gen_mpc
+copying trajectory_gen_mpc/SingleShooting.py -> /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/build/trajectory_gen_mpc/build/lib/trajectory_gen_mpc
+copying trajectory_gen_mpc/Solver.py -> /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/build/trajectory_gen_mpc/build/lib/trajectory_gen_mpc
+running install
+running install_lib
+creating /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/python3.8/site-packages/trajectory_gen_mpc
+copying /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/build/trajectory_gen_mpc/build/lib/trajectory_gen_mpc/MultipleShooting.py -> /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/python3.8/site-packages/trajectory_gen_mpc
+copying /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/build/trajectory_gen_mpc/build/lib/trajectory_gen_mpc/StaticObstacle.py -> /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/python3.8/site-packages/trajectory_gen_mpc
+copying /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/build/trajectory_gen_mpc/build/lib/trajectory_gen_mpc/DynamicObstacle.py -> /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/python3.8/site-packages/trajectory_gen_mpc
+copying /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/build/trajectory_gen_mpc/build/lib/trajectory_gen_mpc/Obstacle.py -> /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/python3.8/site-packages/trajectory_gen_mpc
+copying /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/build/trajectory_gen_mpc/build/lib/trajectory_gen_mpc/__init__.py -> /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/python3.8/site-packages/trajectory_gen_mpc
+copying /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/build/trajectory_gen_mpc/build/lib/trajectory_gen_mpc/Non_Holonomic.py -> /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/python3.8/site-packages/trajectory_gen_mpc
+copying /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/build/trajectory_gen_mpc/build/lib/trajectory_gen_mpc/Holonomic.py -> /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/python3.8/site-packages/trajectory_gen_mpc
+copying /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/build/trajectory_gen_mpc/build/lib/trajectory_gen_mpc/GlobalConstraints.py -> /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/python3.8/site-packages/trajectory_gen_mpc
+copying /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/build/trajectory_gen_mpc/build/lib/trajectory_gen_mpc/Vehicle.py -> /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/python3.8/site-packages/trajectory_gen_mpc
+copying /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/build/trajectory_gen_mpc/build/lib/trajectory_gen_mpc/main.py -> /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/python3.8/site-packages/trajectory_gen_mpc
+copying /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/build/trajectory_gen_mpc/build/lib/trajectory_gen_mpc/SingleShooting.py -> /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/python3.8/site-packages/trajectory_gen_mpc
+copying /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/build/trajectory_gen_mpc/build/lib/trajectory_gen_mpc/Solver.py -> /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/python3.8/site-packages/trajectory_gen_mpc
+byte-compiling /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/python3.8/site-packages/trajectory_gen_mpc/MultipleShooting.py to MultipleShooting.cpython-38.pyc
+byte-compiling /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/python3.8/site-packages/trajectory_gen_mpc/StaticObstacle.py to StaticObstacle.cpython-38.pyc
+byte-compiling /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/python3.8/site-packages/trajectory_gen_mpc/DynamicObstacle.py to DynamicObstacle.cpython-38.pyc
+byte-compiling /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/python3.8/site-packages/trajectory_gen_mpc/Obstacle.py to Obstacle.cpython-38.pyc
+byte-compiling /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/python3.8/site-packages/trajectory_gen_mpc/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/python3.8/site-packages/trajectory_gen_mpc/Non_Holonomic.py to Non_Holonomic.cpython-38.pyc
+byte-compiling /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/python3.8/site-packages/trajectory_gen_mpc/Holonomic.py to Holonomic.cpython-38.pyc
+byte-compiling /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/python3.8/site-packages/trajectory_gen_mpc/GlobalConstraints.py to GlobalConstraints.cpython-38.pyc
+byte-compiling /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/python3.8/site-packages/trajectory_gen_mpc/Vehicle.py to Vehicle.cpython-38.pyc
+byte-compiling /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/python3.8/site-packages/trajectory_gen_mpc/main.py to main.cpython-38.pyc
+byte-compiling /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/python3.8/site-packages/trajectory_gen_mpc/SingleShooting.py to SingleShooting.cpython-38.pyc
+byte-compiling /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/python3.8/site-packages/trajectory_gen_mpc/Solver.py to Solver.cpython-38.pyc
+running install_data
+creating /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/install/trajectory_gen_mpc/share/ament_index
+creating /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/install/trajectory_gen_mpc/share/ament_index/resource_index
+creating /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/install/trajectory_gen_mpc/share/ament_index/resource_index/packages
+copying resource/trajectory_gen_mpc -> /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/install/trajectory_gen_mpc/share/ament_index/resource_index/packages
+copying package.xml -> /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/install/trajectory_gen_mpc/share/trajectory_gen_mpc
+running install_egg_info
+Copying build/trajectory_gen_mpc/trajectory_gen_mpc.egg-info to /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/python3.8/site-packages/trajectory_gen_mpc-0.0.0-py3.8.egg-info
+running install_scripts
+Installing trajectory_gen_mpc script to /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/trajectory_gen_mpc
+writing list of installed files to '/home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/build/trajectory_gen_mpc/install.log'

@@ -1,0 +1,159 @@
+-- The C compiler identification is GNU 10.3.0
+-- The CXX compiler identification is GNU 10.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.1.4 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 9.1.0 (/opt/ros/galactic/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/galactic/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.3 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found example_interfaces: 0.9.2 (/opt/ros/galactic/share/example_interfaces/cmake)
+-- Found custom_interfaces: 0.0.0 (/home/krishna/Altran_Folders/ROS2/catkin_ws/install/custom_interfaces/share/custom_interfaces/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/krishna/Altran_Folders/ROS2/catkin_ws/build/my_cpp_pkg
+[35m[1mScanning dependencies of target rosClientOOPS[0m
+[35m[1mScanning dependencies of target cppNode[0m
+[35m[1mScanning dependencies of target cppClassNode[0m
+[35m[1mScanning dependencies of target rosServer[0m
+[35m[1mScanning dependencies of target rosPub[0m
+[35m[1mScanning dependencies of target Act3Client[0m
+[35m[1mScanning dependencies of target testMem[0m
+[35m[1mScanning dependencies of target rosSub[0m
+[  3%] [32mBuilding CXX object CMakeFiles/rosServer.dir/src/cppServer.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/cppNode.dir/src/firstNode.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/rosSub.dir/src/Subscriber.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/cppClassNode.dir/src/ClassNode.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/rosPub.dir/src/PublisherNode.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/Act3Client.dir/src/Act3ResetClient.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/testMem.dir/src/RosWrapper.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/rosClientOOPS.dir/src/rosClientOOPS.cpp.o[0m
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/krishna/Altran_Folders/ROS2/catkin_ws/src/my_cpp_pkg/src/Subscriber.cpp:2[m[K:
+[01m[K/home/krishna/Altran_Folders/ROS2/catkin_ws/src/my_cpp_pkg/src/Subscriber.cpp:[m[K In member function ‘[01m[Kvoid RosSub::subscriberCb(example_interfaces::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/krishna/Altran_Folders/ROS2/catkin_ws/src/my_cpp_pkg/src/Subscriber.cpp:23:41:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::__cxx11::basic_stringstream<char>::__string_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst char*[m[K’
+   23 |         RCLCPP_INFO(get_logger(), [01;31m[Kss.str()[m[K);
+      |                                   [01;31m[K~~~~~~^~[m[K
+      |                                         [01;31m[K|[m[K
+      |                                         [01;31m[Kstd::__cxx11::basic_stringstream<char>::__string_type {aka std::__cxx11::basic_string<char>}[m[K
+In file included from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/krishna/Altran_Folders/ROS2/catkin_ws/src/my_cpp_pkg/src/Subscriber.cpp:2[m[K:
+[01m[K/opt/ros/galactic/include/rcutils/logging.h:479:16:[m[K [01;36m[Knote: [m[K  initializing argument 4 of ‘[01m[Kvoid rcutils_log(const rcutils_log_location_t*, int, const char*, const char*, ...)[m[K’
+  479 |   [01;36m[Kconst char * format[m[K,
+      |   [01;36m[K~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/krishna/Altran_Folders/ROS2/catkin_ws/src/my_cpp_pkg/src/Act3ResetClient.cpp:1[m[K:
+[01m[K/home/krishna/Altran_Folders/ROS2/catkin_ws/src/my_cpp_pkg/src/Act3ResetClient.cpp:[m[K In member function ‘[01m[Kvoid RosResetClient::clientCb(bool)[m[K’:
+[01m[K/home/krishna/Altran_Folders/ROS2/catkin_ws/src/my_cpp_pkg/src/Act3ResetClient.cpp:36:69:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kconst char*[m[K’
+   36 |                 RCLCPP_INFO(this->get_logger(), [01;31m[K"Sucess message : " + responseMessage[m[K);
+      |                                                 [01;31m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+      |                                                                     [01;31m[K|[m[K
+      |                                                                     [01;31m[Kstd::__cxx11::basic_string<char>[m[K
+In file included from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/krishna/Altran_Folders/ROS2/catkin_ws/src/my_cpp_pkg/src/Act3ResetClient.cpp:1[m[K:
+[01m[K/opt/ros/galactic/include/rcutils/logging.h:479:16:[m[K [01;36m[Knote: [m[K  initializing argument 4 of ‘[01m[Kvoid rcutils_log(const rcutils_log_location_t*, int, const char*, const char*, ...)[m[K’
+  479 |   [01;36m[Kconst char * format[m[K,
+      |   [01;36m[K~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/krishna/Altran_Folders/ROS2/catkin_ws/src/my_cpp_pkg/src/rosClientOOPS.cpp:1[m[K:
+[01m[K/home/krishna/Altran_Folders/ROS2/catkin_ws/src/my_cpp_pkg/src/rosClientOOPS.cpp:[m[K In member function ‘[01m[Kvoid RosClient::clinetCb(int, int)[m[K’:
+[01m[K/home/krishna/Altran_Folders/ROS2/catkin_ws/src/my_cpp_pkg/src/rosClientOOPS.cpp:29:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Klong int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   29 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"The out is : %d"[m[K, [32m[Kout[m[K);
+      |                                             [01;35m[K^~~~~~~~~~~~~~~~~[m[K  [32m[K~~~[m[K
+      |                                                                [32m[K|[m[K
+      |                                                                [32m[Klong int[m[K
+[01m[K/home/krishna/Altran_Folders/ROS2/catkin_ws/src/my_cpp_pkg/src/rosClientOOPS.cpp:29:60:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   29 |             RCLCPP_INFO(this->get_logger(), "The out is : [01;36m[K%d[m[K", out);
+      |                                                           [01;36m[K~^[m[K
+      |                                                            [01;36m[K|[m[K
+      |                                                            [01;36m[Kint[m[K
+      |                                                           [32m[K%ld[m[K
+[ 34%] [32m[1mLinking CXX executable cppNode[0m
+make[2]: *** [CMakeFiles/Act3Client.dir/build.make:63: CMakeFiles/Act3Client.dir/src/Act3ResetClient.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:102: CMakeFiles/Act3Client.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 38%] [32m[1mLinking CXX executable cppClassNode[0m
+[ 38%] Built target cppNode
+[ 38%] Built target cppClassNode
+[ 42%] [32m[1mLinking CXX executable testMem[0m
+[ 42%] Built target testMem
+[ 50%] [32m[1mLinking CXX executable rosServer[0m
+[ 50%] [32m[1mLinking CXX executable rosClientOOPS[0m
+[ 50%] Built target rosClientOOPS
+[ 50%] Built target rosServer
+make[2]: *** [CMakeFiles/rosSub.dir/build.make:63: CMakeFiles/rosSub.dir/src/Subscriber.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:345: CMakeFiles/rosSub.dir/all] Error 2
+[ 53%] [32m[1mLinking CXX executable rosPub[0m
+[ 53%] Built target rosPub
+make: *** [Makefile:141: all] Error 2

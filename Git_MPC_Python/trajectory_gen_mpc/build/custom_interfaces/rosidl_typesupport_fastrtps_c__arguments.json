@@ -1,0 +1,23 @@
+{
+  "package_name": "custom_interfaces",
+  "output_dir": "/home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/build/custom_interfaces/rosidl_typesupport_fastrtps_c/custom_interfaces",
+  "template_dir": "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_c/resource",
+  "idl_tuples": [
+    "/home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/build/custom_interfaces/rosidl_adapter/custom_interfaces:srv/Trajectory.idl",
+    "/home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/build/custom_interfaces/rosidl_adapter/custom_interfaces:msg/ControlAction.idl",
+    "/home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/build/custom_interfaces/rosidl_adapter/custom_interfaces:msg/States.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/galactic/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c",
+    "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_typesupport_fastrtps_c/__init__.py",
+    "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_c/resource/idl__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_c/resource/idl__type_support_c.cpp.em",
+    "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_c/resource/msg__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_c/resource/msg__type_support_c.cpp.em",
+    "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em",
+    "/home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/build/custom_interfaces/rosidl_adapter/custom_interfaces/srv/Trajectory.idl",
+    "/home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/build/custom_interfaces/rosidl_adapter/custom_interfaces/msg/ControlAction.idl",
+    "/home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/build/custom_interfaces/rosidl_adapter/custom_interfaces/msg/States.idl"
+  ]
+}

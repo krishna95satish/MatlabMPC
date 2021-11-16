@@ -1,0 +1,24 @@
+[0.353s] Invoking command in '/home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/build/trajectory_gen_mpc': PYTHONPATH=/home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/install/trajectory_gen_mpc --uninstall --editable --build-directory /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/build/trajectory_gen_mpc/build
+[0.640s] running develop
+[0.855s] Invoked command in '/home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/build/trajectory_gen_mpc' returned '0': PYTHONPATH=/home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/install/trajectory_gen_mpc --uninstall --editable --build-directory /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/build/trajectory_gen_mpc/build
+[0.856s] Invoking command in '/home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc': PYTHONPATH=/home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/trajectory_gen_mpc build --build-base /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/build/trajectory_gen_mpc/build install --prefix /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/install/trajectory_gen_mpc --record /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/build/trajectory_gen_mpc/install.log --single-version-externally-managed
+[1.107s] running egg_info
+[1.108s] writing ../../build/trajectory_gen_mpc/trajectory_gen_mpc.egg-info/PKG-INFO
+[1.108s] writing dependency_links to ../../build/trajectory_gen_mpc/trajectory_gen_mpc.egg-info/dependency_links.txt
+[1.108s] writing entry points to ../../build/trajectory_gen_mpc/trajectory_gen_mpc.egg-info/entry_points.txt
+[1.109s] writing requirements to ../../build/trajectory_gen_mpc/trajectory_gen_mpc.egg-info/requires.txt
+[1.109s] writing top-level names to ../../build/trajectory_gen_mpc/trajectory_gen_mpc.egg-info/top_level.txt
+[1.112s] reading manifest file '../../build/trajectory_gen_mpc/trajectory_gen_mpc.egg-info/SOURCES.txt'
+[1.113s] writing manifest file '../../build/trajectory_gen_mpc/trajectory_gen_mpc.egg-info/SOURCES.txt'
+[1.113s] running build
+[1.113s] running build_py
+[1.114s] running install
+[1.115s] running install_lib
+[1.117s] running install_data
+[1.117s] running install_egg_info
+[1.119s] removing '/home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/python3.8/site-packages/trajectory_gen_mpc-0.0.0-py3.8.egg-info' (and everything under it)
+[1.119s] Copying ../../build/trajectory_gen_mpc/trajectory_gen_mpc.egg-info to /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/python3.8/site-packages/trajectory_gen_mpc-0.0.0-py3.8.egg-info
+[1.120s] running install_scripts
+[1.139s] Installing test_exec script to /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/trajectory_gen_mpc
+[1.139s] writing list of installed files to '/home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/build/trajectory_gen_mpc/install.log'
+[1.157s] Invoked command in '/home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc' returned '0': PYTHONPATH=/home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/trajectory_gen_mpc build --build-base /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/build/trajectory_gen_mpc/build install --prefix /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/install/trajectory_gen_mpc --record /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/build/trajectory_gen_mpc/install.log --single-version-externally-managed

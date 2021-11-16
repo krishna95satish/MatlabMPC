@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from custom_interfaces/msg/States.msg
+// generated code does not contain a copyright notice
+
+
+module custom_interfaces {
+  module msg {
+    struct States {
+      float initial_state_x;
+
+      float initial_state_y;
+
+      float initial_state_v;
+
+      float initial_state_theta;
+
+      float final_state_x;
+
+      float final_state_y;
+
+      float final_state_v;
+
+      float final_state_theta;
+    };
+  };
+};

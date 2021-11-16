@@ -1,0 +1,24 @@
+[0.234s] Invoking command in '/home/krishna/ROS2/catkin_ws/src/my_py_pkg': PYTHONPATH=/home/krishna/ROS2/catkin_ws/src/my_py_pkg/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/my_py_pkg build --build-base /home/krishna/ROS2/catkin_ws/src/my_py_pkg/build/my_py_pkg/build install --prefix /home/krishna/ROS2/catkin_ws/src/my_py_pkg/install/my_py_pkg --record /home/krishna/ROS2/catkin_ws/src/my_py_pkg/build/my_py_pkg/install.log --single-version-externally-managed
+[0.456s] running egg_info
+[0.457s] writing build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[0.457s] writing dependency_links to build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[0.457s] writing entry points to build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[0.458s] writing requirements to build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[0.458s] writing top-level names to build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[0.488s] reading manifest file 'build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.489s] writing manifest file 'build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.489s] running build
+[0.489s] running build_py
+[0.489s] copying my_py_pkg/class_node.py -> /home/krishna/ROS2/catkin_ws/src/my_py_pkg/build/my_py_pkg/build/lib/my_py_pkg
+[0.490s] running install
+[0.490s] running install_lib
+[0.491s] copying /home/krishna/ROS2/catkin_ws/src/my_py_pkg/build/my_py_pkg/build/lib/my_py_pkg/class_node.py -> /home/krishna/ROS2/catkin_ws/src/my_py_pkg/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[0.492s] byte-compiling /home/krishna/ROS2/catkin_ws/src/my_py_pkg/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/class_node.py to class_node.cpython-38.pyc
+[0.493s] running install_data
+[0.493s] running install_egg_info
+[0.495s] removing '/home/krishna/ROS2/catkin_ws/src/my_py_pkg/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[0.495s] Copying build/my_py_pkg/my_py_pkg.egg-info to /home/krishna/ROS2/catkin_ws/src/my_py_pkg/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg-0.0.0-py3.8.egg-info
+[0.496s] running install_scripts
+[0.511s] Installing py_exe = my_py_pkg.first_py_node:mainpyclass_exe script to /home/krishna/ROS2/catkin_ws/src/my_py_pkg/install/my_py_pkg/lib/my_py_pkg
+[0.512s] writing list of installed files to '/home/krishna/ROS2/catkin_ws/src/my_py_pkg/build/my_py_pkg/install.log'
+[0.535s] Invoked command in '/home/krishna/ROS2/catkin_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/krishna/ROS2/catkin_ws/src/my_py_pkg/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/my_py_pkg build --build-base /home/krishna/ROS2/catkin_ws/src/my_py_pkg/build/my_py_pkg/build install --prefix /home/krishna/ROS2/catkin_ws/src/my_py_pkg/install/my_py_pkg --record /home/krishna/ROS2/catkin_ws/src/my_py_pkg/build/my_py_pkg/install.log --single-version-externally-managed

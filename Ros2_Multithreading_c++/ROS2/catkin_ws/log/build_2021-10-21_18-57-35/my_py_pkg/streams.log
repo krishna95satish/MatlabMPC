@@ -1,0 +1,65 @@
+[0.361s] Invoking command in '/home/krishna/Altran_Folders/ROS2/catkin_ws/src/my_py_pkg': AMENT_PREFIX_PATH=/home/krishna/Altran_Folders/ROS2/catkin_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/krishna/Altran_Folders/ROS2/catkin_ws/install/custom_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/krishna/Altran_Folders/ROS2/catkin_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/krishna/Altran_Folders/ROS2/catkin_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/krishna/Altran_Folders/ROS2/catkin_ws/build/my_py_pkg/build install --prefix /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg --record /home/krishna/Altran_Folders/ROS2/catkin_ws/build/my_py_pkg/install.log --single-version-externally-managed
+[0.624s] /home/krishna/.local/lib/python3.8/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.625s]   warnings.warn(
+[0.625s] /home/krishna/.local/lib/python3.8/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[0.625s]   warnings.warn(
+[0.650s] running egg_info
+[0.651s] creating ../../build/my_py_pkg/my_py_pkg.egg-info
+[0.651s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[0.651s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[0.652s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[0.652s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[0.652s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[0.653s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.654s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.655s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.655s] running build
+[0.655s] running build_py
+[0.655s] creating /home/krishna/Altran_Folders/ROS2/catkin_ws/build/my_py_pkg/build
+[0.655s] creating /home/krishna/Altran_Folders/ROS2/catkin_ws/build/my_py_pkg/build/lib
+[0.655s] creating /home/krishna/Altran_Folders/ROS2/catkin_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.655s] copying my_py_pkg/py_sub.py -> /home/krishna/Altran_Folders/ROS2/catkin_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.655s] copying my_py_pkg/pyClient.py -> /home/krishna/Altran_Folders/ROS2/catkin_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.656s] copying my_py_pkg/__init__.py -> /home/krishna/Altran_Folders/ROS2/catkin_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.656s] copying my_py_pkg/pyServer.py -> /home/krishna/Altran_Folders/ROS2/catkin_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.656s] copying my_py_pkg/pyClientOOPS.py -> /home/krishna/Altran_Folders/ROS2/catkin_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.656s] copying my_py_pkg/class_node.py -> /home/krishna/Altran_Folders/ROS2/catkin_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.656s] copying my_py_pkg/py_pub.py -> /home/krishna/Altran_Folders/ROS2/catkin_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.656s] copying my_py_pkg/first_py_node.py -> /home/krishna/Altran_Folders/ROS2/catkin_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.656s] running install
+[0.659s] running install_lib
+[0.660s] creating /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[0.660s] copying /home/krishna/Altran_Folders/ROS2/catkin_ws/build/my_py_pkg/build/lib/my_py_pkg/py_sub.py -> /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[0.660s] copying /home/krishna/Altran_Folders/ROS2/catkin_ws/build/my_py_pkg/build/lib/my_py_pkg/pyClient.py -> /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[0.660s] copying /home/krishna/Altran_Folders/ROS2/catkin_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[0.660s] copying /home/krishna/Altran_Folders/ROS2/catkin_ws/build/my_py_pkg/build/lib/my_py_pkg/pyServer.py -> /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[0.660s] copying /home/krishna/Altran_Folders/ROS2/catkin_ws/build/my_py_pkg/build/lib/my_py_pkg/pyClientOOPS.py -> /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[0.660s] copying /home/krishna/Altran_Folders/ROS2/catkin_ws/build/my_py_pkg/build/lib/my_py_pkg/class_node.py -> /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[0.660s] copying /home/krishna/Altran_Folders/ROS2/catkin_ws/build/my_py_pkg/build/lib/my_py_pkg/py_pub.py -> /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[0.660s] copying /home/krishna/Altran_Folders/ROS2/catkin_ws/build/my_py_pkg/build/lib/my_py_pkg/first_py_node.py -> /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[0.661s] byte-compiling /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/py_sub.py to py_sub.cpython-38.pyc
+[0.662s] byte-compiling /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/pyClient.py to pyClient.cpython-38.pyc
+[0.662s] byte-compiling /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/__init__.py to __init__.cpython-38.pyc
+[0.662s] byte-compiling /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/pyServer.py to pyServer.cpython-38.pyc
+[0.663s] byte-compiling /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/pyClientOOPS.py to pyClientOOPS.cpython-38.pyc
+[0.663s] byte-compiling /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/class_node.py to class_node.cpython-38.pyc
+[0.663s] byte-compiling /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/py_pub.py to py_pub.cpython-38.pyc
+[0.663s] byte-compiling /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/first_py_node.py to first_py_node.cpython-38.pyc
+[0.663s] running install_data
+[0.664s] creating /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/share/ament_index
+[0.664s] creating /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/share/ament_index/resource_index
+[0.664s] creating /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[0.664s] copying resource/my_py_pkg -> /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[0.664s] copying package.xml -> /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/share/my_py_pkg
+[0.664s] running install_egg_info
+[0.666s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg-0.0.0-py3.8.egg-info
+[0.666s] running install_scripts
+[0.685s] Installing pyClientOOPS_exe script to /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/my_py_pkg
+[0.685s] Installing pyClient_exe script to /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/my_py_pkg
+[0.685s] Installing pyPub_exe script to /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/my_py_pkg
+[0.685s] Installing pyServer_exe script to /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/my_py_pkg
+[0.685s] Installing pySub_exe script to /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/my_py_pkg
+[0.685s] Installing py_exe script to /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/my_py_pkg
+[0.685s] Installing pyclass_exe script to /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/my_py_pkg
+[0.685s] writing list of installed files to '/home/krishna/Altran_Folders/ROS2/catkin_ws/build/my_py_pkg/install.log'
+[0.708s] Invoked command in '/home/krishna/Altran_Folders/ROS2/catkin_ws/src/my_py_pkg' returned '0': AMENT_PREFIX_PATH=/home/krishna/Altran_Folders/ROS2/catkin_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/krishna/Altran_Folders/ROS2/catkin_ws/install/custom_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/krishna/Altran_Folders/ROS2/catkin_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/krishna/Altran_Folders/ROS2/catkin_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/krishna/Altran_Folders/ROS2/catkin_ws/build/my_py_pkg/build install --prefix /home/krishna/Altran_Folders/ROS2/catkin_ws/install/my_py_pkg --record /home/krishna/Altran_Folders/ROS2/catkin_ws/build/my_py_pkg/install.log --single-version-externally-managed

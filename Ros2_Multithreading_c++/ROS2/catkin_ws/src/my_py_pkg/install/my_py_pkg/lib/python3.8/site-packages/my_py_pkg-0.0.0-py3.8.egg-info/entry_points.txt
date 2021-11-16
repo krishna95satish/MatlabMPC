@@ -1,0 +1,3 @@
+[console_scripts]
+py_exe = my_py_pkg.first_py_node:mainpyclass_exe = my_py_pkg.class_node:main
+

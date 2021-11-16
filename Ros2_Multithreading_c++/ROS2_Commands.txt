@@ -1,0 +1,31 @@
+To create pkg
+*. ros2 pkg  create customMessages --build-type ament_cmake --dependencies 
+
+
+
+1. In Ros2 we can have 2 nodes with the same name running at the same time
+2. rename the Node in runtime (ros2 run my_cpp_pkg testMem --ros-args --remap __node:=New_name) or (ros2 run my_cpp_pkg testMem --ros-args -r __node:=New_name)
+3. rename the topic & Services use ros2 run my_cpp_pkg testMem --ros-args -r __node:=New_name -r CppTopic:=TestTopic -r add_two_ints:=newService
+4. ros2 service call /add_two_ints example_interfaces/srv/AddTwoInts "{a: 1,b: 20}" (Note the space afetr : is important)
+5. ros2 launch my_robot_bringup number_app.launch.py 
+
+To create the custom interface
+* In Pkg.xml
+
+  <build_depend>rosidl_default_generators</build_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+ find_package(rosidl_default_generators REQUIRED)
+
+* In cmake.txt
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/HwStatus.msg"
+)
+
+* To launch carla with low res 
+./CarlaUE4.sh -ResX=800 -ResY=600 -nosound -windowed -opengl
+
+
+

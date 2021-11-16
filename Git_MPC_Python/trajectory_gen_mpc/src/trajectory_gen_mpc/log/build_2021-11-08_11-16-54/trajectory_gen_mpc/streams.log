@@ -1,0 +1,27 @@
+[0.289s] Invoking command in '/home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc': PYTHONPATH=/home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/trajectory_gen_mpc build --build-base /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/build/trajectory_gen_mpc/build install --prefix /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/install/trajectory_gen_mpc --record /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/build/trajectory_gen_mpc/install.log --single-version-externally-managed
+[0.536s] running egg_info
+[0.536s] writing build/trajectory_gen_mpc/trajectory_gen_mpc.egg-info/PKG-INFO
+[0.536s] writing dependency_links to build/trajectory_gen_mpc/trajectory_gen_mpc.egg-info/dependency_links.txt
+[0.536s] writing entry points to build/trajectory_gen_mpc/trajectory_gen_mpc.egg-info/entry_points.txt
+[0.536s] writing requirements to build/trajectory_gen_mpc/trajectory_gen_mpc.egg-info/requires.txt
+[0.537s] writing top-level names to build/trajectory_gen_mpc/trajectory_gen_mpc.egg-info/top_level.txt
+[0.539s] reading manifest file 'build/trajectory_gen_mpc/trajectory_gen_mpc.egg-info/SOURCES.txt'
+[0.540s] writing manifest file 'build/trajectory_gen_mpc/trajectory_gen_mpc.egg-info/SOURCES.txt'
+[0.540s] running build
+[0.540s] running build_py
+[0.540s] copying trajectory_gen_mpc/MultipleShooting.py -> /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/build/trajectory_gen_mpc/build/lib/trajectory_gen_mpc
+[0.540s] copying trajectory_gen_mpc/main.py -> /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/build/trajectory_gen_mpc/build/lib/trajectory_gen_mpc
+[0.540s] running install
+[0.541s] running install_lib
+[0.542s] copying /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/build/trajectory_gen_mpc/build/lib/trajectory_gen_mpc/MultipleShooting.py -> /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/python3.8/site-packages/trajectory_gen_mpc
+[0.542s] copying /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/build/trajectory_gen_mpc/build/lib/trajectory_gen_mpc/main.py -> /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/python3.8/site-packages/trajectory_gen_mpc
+[0.543s] byte-compiling /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/python3.8/site-packages/trajectory_gen_mpc/MultipleShooting.py to MultipleShooting.cpython-38.pyc
+[0.544s] byte-compiling /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/python3.8/site-packages/trajectory_gen_mpc/main.py to main.cpython-38.pyc
+[0.545s] running install_data
+[0.545s] running install_egg_info
+[0.547s] removing '/home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/python3.8/site-packages/trajectory_gen_mpc-0.0.0-py3.8.egg-info' (and everything under it)
+[0.547s] Copying build/trajectory_gen_mpc/trajectory_gen_mpc.egg-info to /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/python3.8/site-packages/trajectory_gen_mpc-0.0.0-py3.8.egg-info
+[0.548s] running install_scripts
+[0.564s] Installing trajectory_gen_mpc script to /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/trajectory_gen_mpc
+[0.564s] writing list of installed files to '/home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/build/trajectory_gen_mpc/install.log'
+[0.581s] Invoked command in '/home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc' returned '0': PYTHONPATH=/home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/install/trajectory_gen_mpc/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/trajectory_gen_mpc build --build-base /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/build/trajectory_gen_mpc/build install --prefix /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/install/trajectory_gen_mpc --record /home/krishna/Desktop/Git_MPC_Python/trajectory_gen_mpc/src/trajectory_gen_mpc/build/trajectory_gen_mpc/install.log --single-version-externally-managed
