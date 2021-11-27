@@ -7,11 +7,11 @@ addpath('/home/krishna/Master_Thesis/casadi-linux-matlabR2014b-v3.5.5')
 import casadi.*
 
 T = 0.2;
-N = 15; % prediction horizon
+N = 30; % prediction horizon
 rob_diam = 0.3;
 WB = 1.3;
 
-a_max = 0.6; 
+a_max = 0.1; 
 a_min = -a_max;
 delta_max = pi/6; 
 delta_min = -delta_max;
@@ -91,7 +91,7 @@ g = [];  % constraints vector
 
 Q = zeros(4,4); 
 Q(1,1) = 60;
-Q(2,2) = 70;
+Q(2,2) = 100;
 Q(3,3) = 0.5;
 Q(4,4) = 20;
 

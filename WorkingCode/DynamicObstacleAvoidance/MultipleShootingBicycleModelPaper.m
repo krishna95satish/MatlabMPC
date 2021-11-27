@@ -8,8 +8,8 @@ addpath('/home/krishna/Master_Thesis/casadi-linux-matlabR2014b-v3.5.5')
 import casadi.*
 
 %% Constants 
-T = 0.3;
-N = 30;
+T = 0.4;
+N = 20;
 rob_diam = 0.3;
 WB = 0.5;
 a_max = 0.1; 
@@ -61,11 +61,11 @@ Q = zeros(4,4);
 Q(1,1) = 20;
 Q(2,2) = 20;
 Q(3,3) = 3;
-Q(4,4) = 18;
+Q(4,4) = 8;
 
 R = zeros(2,2);
 R(1,1) = 50 ;
-R(2,2) = 215;
+R(2,2) = 500;
 
 st  = X(:,1); 
 g = [g;
@@ -73,7 +73,7 @@ g = [g;
     ];
 
 prev_steer = 0;
-Z = 505;
+Z = 205;
 
 for k = 1:N
     st = X(:,k);  
@@ -101,7 +101,7 @@ obs_x = 3;
 obs_y = -2; 
 obs1_diam = 0.6; 
 %% Constant veloity model in X direction only(For now)
-obs_vel = -0.3;
+obs_vel = 0.3;
 obs_x_prev = obs_x1;
 obs_history(:,1) = obs_x_prev; 
 
@@ -112,7 +112,7 @@ for k = 1:N+1
 end
 for k = 1:N+1   
     g = [g ; -sqrt((X(1,k)-obs_x1)^2+(X(2,k)-obs_y1)^2) + (rob_diam/2 + obs_diam/2)];
-     obs_x1 = obs_x1 + T*obs_vel;
+     obs_x1 = obs_x1 + 0.1*obs_vel;
      obs_history(:,k) = obs_x1;
 end
        
@@ -126,7 +126,7 @@ disp(nlp_prob.x)
 
 %% Solver Settings
 opts = struct;
-opts.ipopt.max_iter = 1000;
+opts.ipopt.max_iter = 2000;
 opts.ipopt.print_level =0;%0,3
 opts.print_time = 0;
 opts.ipopt.acceptable_tol =1e-3;
